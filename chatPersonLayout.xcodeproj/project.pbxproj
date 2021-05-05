@@ -16,6 +16,8 @@
 		2B246D0225A59D420024C3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B246D0125A59D420024C3C1 /* main.m */; };
 		2B246D0C25A59D420024C3C1 /* chatPersonLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B246D0B25A59D420024C3C1 /* chatPersonLayoutTests.m */; };
 		2B246D1725A59D420024C3C1 /* chatPersonLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B246D1625A59D420024C3C1 /* chatPersonLayoutUITests.m */; };
+		2B246D6225AC3DF30024C3C1 /* DSGroupVideoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B246D6125AC3DF30024C3C1 /* DSGroupVideoLayout.m */; };
+		2B8F87AB25AEF0E400C48C3E /* ChatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F87AA25AEF0E400C48C3E /* ChatCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		2B246D1225A59D420024C3C1 /* chatPersonLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatPersonLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B246D1625A59D420024C3C1 /* chatPersonLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatPersonLayoutUITests.m; sourceTree = "<group>"; };
 		2B246D1825A59D420024C3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B246D6025AC3DF30024C3C1 /* DSGroupVideoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGroupVideoLayout.h; sourceTree = "<group>"; };
+		2B246D6125AC3DF30024C3C1 /* DSGroupVideoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGroupVideoLayout.m; sourceTree = "<group>"; };
+		2B8F87A925AEF0E400C48C3E /* ChatCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCollectionViewCell.h; sourceTree = "<group>"; };
+		2B8F87AA25AEF0E400C48C3E /* ChatCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 				2B246CF025A59D3F0024C3C1 /* AppDelegate.m */,
 				2B246CF225A59D3F0024C3C1 /* SceneDelegate.h */,
 				2B246CF325A59D3F0024C3C1 /* SceneDelegate.m */,
+				2B246D6025AC3DF30024C3C1 /* DSGroupVideoLayout.h */,
+				2B246D6125AC3DF30024C3C1 /* DSGroupVideoLayout.m */,
 				2B246CF525A59D3F0024C3C1 /* ViewController.h */,
 				2B246CF625A59D3F0024C3C1 /* ViewController.m */,
 				2B246CF825A59D3F0024C3C1 /* Main.storyboard */,
@@ -115,6 +123,8 @@
 				2B246CFD25A59D410024C3C1 /* LaunchScreen.storyboard */,
 				2B246D0025A59D420024C3C1 /* Info.plist */,
 				2B246D0125A59D420024C3C1 /* main.m */,
+				2B8F87A925AEF0E400C48C3E /* ChatCollectionViewCell.h */,
+				2B8F87AA25AEF0E400C48C3E /* ChatCollectionViewCell.m */,
 			);
 			path = chatPersonLayout;
 			sourceTree = "<group>";
@@ -268,7 +278,9 @@
 			files = (
 				2B246CF725A59D3F0024C3C1 /* ViewController.m in Sources */,
 				2B246CF125A59D3F0024C3C1 /* AppDelegate.m in Sources */,
+				2B246D6225AC3DF30024C3C1 /* DSGroupVideoLayout.m in Sources */,
 				2B246D0225A59D420024C3C1 /* main.m in Sources */,
+				2B8F87AB25AEF0E400C48C3E /* ChatCollectionViewCell.m in Sources */,
 				2B246CF425A59D3F0024C3C1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,8 +454,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D66PH27VE2;
+				DEVELOPMENT_TEAM = 89983ER57V;
 				INFOPLIST_FILE = chatPersonLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,8 +473,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D66PH27VE2;
+				DEVELOPMENT_TEAM = 89983ER57V;
 				INFOPLIST_FILE = chatPersonLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
